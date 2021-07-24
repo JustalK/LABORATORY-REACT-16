@@ -12,11 +12,16 @@ In addition, I added `prettier` and configured it for working well with `esLint`
 
 I explain with all the details how I build the project and my way of working.
 
+- [Experiences](#experiences)
 - [Documentation](#documentation)
 - [Organization](#organization)
 - [Development](#development)
 - [Running](#running)
 - [Commands](#commands)
+
+## Experiences
+
+- **Experience1**: Profile a re-render on a component
 
 ## Documentation
 #### Code documentation

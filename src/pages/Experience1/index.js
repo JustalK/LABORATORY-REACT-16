@@ -1,6 +1,6 @@
 /**
- * The module managing the home page
- * @module Home
+ * Profile the app for knowing when everything re-render
+ * @module Experiences/Experience1
  */
 
 import React, { Profiler, useState } from 'react'
@@ -8,7 +8,7 @@ import Children from '@pages/Experience1/Children'
 
 /**
  * @function Experience
- * Create the component Home
+ * Profile the app for knowing when everything re-render
  * @return {Object} Return the dom of the Home page
  */
 const Experience = () => {
