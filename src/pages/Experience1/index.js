@@ -14,7 +14,7 @@ import Children from '@pages/Experience1/Children'
 const Experience = () => {
   const [val, setVal] = useState(0)
 
-  const callback = (
+  const onRender = (
     id,
     phase,
     actualDuration,
@@ -34,9 +34,8 @@ const Experience = () => {
     )
   }
 
-  console.log('Re-render')
   return (
-    <Profiler id="Incrementation" onRender={callback}>
+    <Profiler id="Experience" onRender={onRender}>
       <div>
         <button onClick={() => setVal((c) => c + 1)}>
           Increment and look console
