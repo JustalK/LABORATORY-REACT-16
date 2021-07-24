@@ -1,23 +1,37 @@
 /**
- * The module managing the secondary page
- * @module Secondary
+ * In this test, I make sure Children is only re-render when val2 is changed by using memo
+ * @module Experiences/Experience2
  */
 
-import React from 'react'
-import Seo from '@components/Seo'
+import React, { Profiler, useState } from 'react'
+import Children from '@pages/Experience2/Children'
 
 /**
- * @function Secondary
- * Create the component Secondary
- * @return {Object} Return the dom of the Secondary page
+ * @function Experience
+ * In this test, I make sure Children is only re-render when val2 is changed by using memo
+ * @return {Object} Return the dom
  */
-const Secondary = () => {
+const Experience = () => {
+  const [val, setVal] = useState(0)
+  const [val2, setVal2] = useState(0)
+
+  const onRender = (id, phase) => {
+    console.log(id, phase)
+  }
+
   return (
-    <>
-      <Seo title="Secondary" description="Description of Secondary" />
-      Test 2
-    </>
+    <Profiler id="Experience" onRender={onRender}>
+      <div>
+        <button onClick={() => setVal((c) => c + 1)}>
+          Increment ({val}) and look console
+        </button>
+        <button onClick={() => setVal2((c) => c + 1)}>
+          Increment second ({val2}) and look console
+        </button>
+        <Children val2={val2} />
+      </div>
+    </Profiler>
   )
 }
 
-export default Secondary
+export default Experience

@@ -22,6 +22,7 @@ I explain with all the details how I build the project and my way of working.
 ## Experiences
 
 - **Experience1**: Profile a re-render on a component
+- **Experience2**: Saving render on a component using memo
 
 ## Documentation
 #### Code documentation
