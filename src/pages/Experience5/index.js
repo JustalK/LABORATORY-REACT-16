@@ -2,7 +2,7 @@
  * If we are using a useEffect, the useEffect will be trigger everytime since
  * the comparison function cannot compare object
  * The problem is fixed using a custom use effect
- * @module Experiences/Experience4
+ * @module Experiences/Experience5
  */
 
 import React, { Profiler, useState } from 'react'
