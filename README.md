@@ -26,7 +26,8 @@ I explain with all the details how I build the project and my way of working.
 - **Experience1**: Profile a re-render on a component
 - **Experience2**: Saving render on a component using memo
 - **Experience3**: Saving render on a component re-rendering with useEffect using memo
-- **Experience4**: Fixing (infinite) render on useEffect using useDeepCompareEffect (deep comparison on useEffect) 
+- **Experience4**: Fixing (infinite) render on useEffect using useDeepCompareEffect (deep comparison on useEffect)
+- **Experience5**: Fixing (infinite) render on useEffect using a custom use effect (deep comparison on useEffect) 
 
 ## Documentation
 #### Code documentation
