@@ -21,6 +21,8 @@ I explain with all the details how I build the project and my way of working.
 
 ## Experiences
 
+- **Experience0**: Template experience
+
 - **Experience1**: Profile a re-render on a component
 - **Experience2**: Saving render on a component using memo
 
