@@ -1,6 +1,8 @@
 /**
- * Profile the app for knowing when everything re-render
- * @module Experiences/Experience0
+ * If we are using a useEffect, the useEffect will be trigger everytime since
+ * the comparison function cannot compare object
+ * The problem is fixed using a deep comparison
+ * @module Experiences/Experience4
  */
 
 import React, { Profiler, useState } from 'react'
@@ -13,7 +15,9 @@ const onRender = (id, phase, actualDuration) => {
 
 /**
  * @function Experience
- * Profile the app for knowing when everything re-render
+ * If we are using a useEffect, the useEffect will be trigger everytime since
+ * the comparison function cannot compare object
+ * The problem is fixed using a deep comparison
  * @return {Object} Return the dom of the Experience
  */
 const Experience = () => {
