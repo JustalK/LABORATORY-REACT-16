@@ -6,15 +6,16 @@
 import React, { Profiler, useState } from 'react'
 import Children from '@pages/Experience1/Children'
 
-/**
- * @function Experience
- * Profile the app for knowing when everything re-render
- * @return {Object} Return the dom of the Home page
- */
-const Experience = () => {
-  const [val, setVal] = useState(0)
-
-  const onRender = (
+const onRender = (
+  id,
+  phase,
+  actualDuration,
+  baseDuration,
+  startTime,
+  commitTime,
+  interactions
+) => {
+  console.log(
     id,
     phase,
     actualDuration,
@@ -22,17 +23,16 @@ const Experience = () => {
     startTime,
     commitTime,
     interactions
-  ) => {
-    console.log(
-      id,
-      phase,
-      actualDuration,
-      baseDuration,
-      startTime,
-      commitTime,
-      interactions
-    )
-  }
+  )
+}
+
+/**
+ * @function Experience
+ * Profile the app for knowing when everything re-render
+ * @return {Object} Return the dom of the Home page
+ */
+const Experience = () => {
+  const [val, setVal] = useState(0)
 
   return (
     <Profiler id="Experience" onRender={onRender}>

@@ -1,13 +1,13 @@
 import React, { Profiler, memo } from 'react'
 
-const onRender = (id, phase) => {
-  console.log(id, phase)
+const onRender = (id, phase, actualDuration) => {
+  console.log(id, phase, actualDuration)
 }
 
-const Children = ({ val2 }) => {
+const Children = ({ val }) => {
   return (
     <Profiler id="Children" onRender={onRender}>
-      <div>{val2}</div>
+      <div>Val: {val}</div>
     </Profiler>
   )
 }

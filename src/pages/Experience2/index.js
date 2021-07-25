@@ -6,6 +6,10 @@
 import React, { Profiler, useState } from 'react'
 import Children from '@pages/Experience2/Children'
 
+const onRender = (id, phase) => {
+  console.log(id, phase)
+}
+
 /**
  * @function Experience
  * In this test, I make sure Children is only re-render when val2 is changed by using memo
@@ -14,10 +18,6 @@ import Children from '@pages/Experience2/Children'
 const Experience = () => {
   const [val, setVal] = useState(0)
   const [val2, setVal2] = useState(0)
-
-  const onRender = (id, phase) => {
-    console.log(id, phase)
-  }
 
   return (
     <Profiler id="Experience" onRender={onRender}>

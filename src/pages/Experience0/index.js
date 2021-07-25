@@ -3,7 +3,8 @@
  * @module Experiences/Experience0
  */
 
-import React, { Profiler } from 'react'
+import React, { Profiler, useState } from 'react'
+import Children from './Children'
 
 const onRender = (id, phase, actualDuration) => {
   console.log(id, phase, actualDuration)
@@ -15,11 +16,12 @@ const onRender = (id, phase, actualDuration) => {
  * @return {Object} Return the dom of the Experience
  */
 const Experience = () => {
+  const [val, setVal] = useState(0)
+
   return (
     <Profiler id="Experience" onRender={onRender}>
-      <div>
-        This is a test - This is a test - This is a test - This is a test -
-      </div>
+      <button onClick={() => setVal((c) => c + 1)}>Increment val</button>
+      <Children val={val} />
     </Profiler>
   )
 }
