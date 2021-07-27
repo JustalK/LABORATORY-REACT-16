@@ -1,7 +1,7 @@
 /**
  * Test the difference between a normal useHover vs just css
  * if you pay attention, it wont re-render with the css version
- * @module Experiences/Experience0
+ * @module Experiences/Experience8
  */
 
 import React, { Profiler } from 'react'

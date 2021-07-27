@@ -1,6 +1,6 @@
 /**
- * Profile the app for knowing when everything re-render
- * @module Experiences/Experience0
+ * Get the size of the window and handle the resize
+ * @module Experiences/Experience9
  */
 
 import React, { Profiler } from 'react'
@@ -12,7 +12,7 @@ const onRender = (id, phase, actualDuration) => {
 
 /**
  * @function Experience
- * Profile the app for knowing when everything re-render
+ * Get the size of the window and handle the resize
  * @return {Object} Return the dom of the Experience
  */
 const Experience = () => {
