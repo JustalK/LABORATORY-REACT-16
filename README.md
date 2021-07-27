@@ -30,7 +30,7 @@ I explain with all the details how I build the project and my way of working.
 - **Experience5**: Fixing (infinite) render on useEffect using a custom use effect (deep comparison on useEffect)
 - **Experience6**: Creating multiple ref on a list
 - **Experience7**: Testing the useDebugValue on a customHook
-- **Experience8**: useHover custom hook
+- **Experience8**: useHover custom hook vs CSS version
 
 ## Documentation
 #### Code documentation
