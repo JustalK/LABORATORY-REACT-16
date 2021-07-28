@@ -31,7 +31,8 @@ I explain with all the details how I build the project and my way of working.
 - **Experience6**: Creating multiple ref on a list
 - **Experience7**: Testing the useDebugValue on a customHook
 - **Experience8**: useHover custom hook vs CSS version
-- **Experience8**: useWindow custom hook (get window size)
+- **Experience9**: useWindow custom hook (get window size)
+- **Experience10**: Using styled-component
 
 ## Documentation
 #### Code documentation
