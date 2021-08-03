@@ -31,6 +31,7 @@ I explain with all the details how I build the project and my way of working.
 - **Experience8**: useHover custom hook vs CSS version
 - **Experience9**: useWindow custom hook (get window size)
 - **Experience10**: Using styled-component
+- **Experience11**: Creating an interceptor with axios
 
 ## Documentation
 #### Code documentation
