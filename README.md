@@ -32,6 +32,7 @@ I explain with all the details how I build the project and my way of working.
 - **Experience9**: useWindow custom hook (get window size)
 - **Experience10**: Using styled-component
 - **Experience11**: Creating an interceptor with axios
+- **Experience11**: Using Rxjs for quering data (creating a hook useObservable)
 
 ## Documentation
 #### Code documentation
