@@ -1,6 +1,6 @@
 /**
- * Profile the app for knowing when everything re-render
- * @module Experiences/Experience0
+ * Using Rxjs for quering data (creating a hook useObservable)
+ * @module Experiences/Experience12
  */
 
 import React, { Profiler } from 'react'
@@ -21,7 +21,7 @@ const names$ = ajax
 
 /**
  * @function Experience
- * Profile the app for knowing when everything re-render
+ * Using Rxjs for quering data (creating a hook useObservable)
  * @return {Object} Return the dom of the Experience
  */
 const Experience = () => {
