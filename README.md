@@ -34,6 +34,8 @@ I explain with all the details how I build the project and my way of working.
 - **Experience11**: Creating an interceptor with axios
 - **Experience12**: Using Rxjs for quering data (creating a hook useObservable)
 - **Experience13**: useEffect no-state vs no-dependencies
+- **Experience14**: Testing the react-responsive plugin with tutorial code
+- **Experience15**: Creating a form input with react-responsive
 
 ## Documentation
 #### Code documentation
