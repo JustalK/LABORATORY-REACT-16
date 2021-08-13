@@ -36,6 +36,12 @@ I explain with all the details how I build the project and my way of working.
 - **Experience13**: useEffect no-state vs no-dependencies
 - **Experience14**: Testing the react-responsive plugin with tutorial code
 - **Experience15**: Creating a form input with react-responsive
+- **Experience16**: Creating a form using React Hook Form
+
+### Package to lean
+React Hook Form
+Zustand
+React Query
 
 ## Documentation
 #### Code documentation
