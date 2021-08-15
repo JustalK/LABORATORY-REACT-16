@@ -6,16 +6,24 @@ export default function App() {
     register,
     handleSubmit,
     watch,
+    reset,
     formState: { errors, isDirty }
-  } = useForm()
+  } = useForm({
+    mode: 'all'
+  })
   const onSubmit = (data) => console.log(data)
   const watchFirstName = watch('firstName')
 
   return (
     <>
-      <button onClick={() => console.log(watchFirstName)}>
-        Console log of the value of FirstName
-      </button>
+      <div>
+        <button onClick={() => console.log(watchFirstName)}>
+          Console log of the value of FirstName
+        </button>
+      </div>
+      <div>
+        <button onClick={() => reset()}>Reset the whole form</button>
+      </div>
       <form onSubmit={handleSubmit(onSubmit)}>
         <div>
           <label>firstName : </label>
