@@ -20,7 +20,6 @@ I explain with all the details how I build the project and my way of working.
 ## Experiences
 
 - **Experience0**: Template experience
-
 - **Experience1**: Profile a re-render on a component
 - **Experience2**: Saving render on a component using memo
 - **Experience3**: Saving render on a component re-rendering with useEffect using memo
@@ -37,6 +36,8 @@ I explain with all the details how I build the project and my way of working.
 - **Experience14**: Testing the react-responsive plugin with tutorial code
 - **Experience15**: Creating a form input with react-responsive
 - **Experience16**: Creating a form using React Hook Form
+- **Experience17**: Creating a hook for useToggle
+- **Experience18**: Creating a hook for useLocalStorage
 
 ## Documentation
 #### Code documentation
