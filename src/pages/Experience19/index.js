@@ -1,5 +1,5 @@
 /**
- * Profile the app for knowing when everything re-render
+ * Testing the swr on React
  * @module Experiences/Experience0
  */
 
@@ -14,7 +14,7 @@ const fetcher = (...args) => fetch(...args).then((res) => res.json())
 
 /**
  * @function Experience
- * Profile the app for knowing when everything re-render
+ * Testing the swr on React
  * @return {Object} Return the dom of the Experience
  */
 const Experience = () => {
