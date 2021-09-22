@@ -9,10 +9,11 @@ const triggerConsole = () => {
 }
 
 const ButtonMain = (Component) => {
+  const variable = 'This is a variable.'
   return function WihComponent({ ...props }) {
     return (
       <button onClick={() => triggerConsole()}>
-        <Component val={multiplicator(props.val)} />
+        <Component val={multiplicator(props.val)} variable={variable} />
       </button>
     )
   }
