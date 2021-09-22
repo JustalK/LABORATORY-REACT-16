@@ -8,8 +8,9 @@ const triggerConsole = () => {
   console.log('TRIGGERED')
 }
 
+const variable = 'This is a variable.'
+
 const ButtonMain = (Component) => {
-  const variable = 'This is a variable.'
   return function WihComponent({ ...props }) {
     return (
       <button onClick={() => triggerConsole()}>
