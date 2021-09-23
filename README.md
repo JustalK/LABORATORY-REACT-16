@@ -38,7 +38,8 @@ I explain with all the details how I build the project and my way of working.
 - **Experience16**: Creating a form using React Hook Form
 - **Experience17**: Creating a hook for useToggle
 - **Experience18**: Creating a hook for useLocalStorage
-- **Experience18**: Testing SWR for using fetch call as Apollo
+- **Experience19**: Testing SWR for using fetch call as Apollo
+- **Experience20**: Demonstration the power of hoc for kinda imitating inheritance
 
 ## Documentation
 #### Code documentation
