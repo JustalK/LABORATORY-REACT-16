@@ -40,6 +40,7 @@ I explain with all the details how I build the project and my way of working.
 - **Experience18**: Creating a hook for useLocalStorage
 - **Experience19**: Testing SWR for using fetch call as Apollo
 - **Experience20**: Demonstration the power of hoc for kinda imitating inheritance
+- **Experience21**: conditionnal class css with clsx
 
 ## Documentation
 #### Code documentation

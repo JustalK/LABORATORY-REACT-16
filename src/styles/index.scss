@@ -13,6 +13,10 @@ body {
   height: 100%;
 }
 
+.red {
+  color: red;
+}
+
 .navigation {
   width: 200px;
   background: #eeeeee;
@@ -30,7 +34,7 @@ body {
   }
   &:hover {
     & .yes {
-      display: initial; 
+      display: initial;
     }
     & .no {
       display: none;
