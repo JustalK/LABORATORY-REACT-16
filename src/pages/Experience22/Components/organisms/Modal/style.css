@@ -1,0 +1,12 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #e2e2e2;
+  padding: 20px;
+  transform: translate(-50%, -50%);
+}
+
+.hidden {
+  display: none;
+}
