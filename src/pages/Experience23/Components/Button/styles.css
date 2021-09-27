@@ -1,0 +1,23 @@
+button {
+  display: block;
+  font-weight: 700;
+  border: 0;
+  border-radius: 3em;
+  cursor: pointer;
+  line-height: 1;
+}
+
+.small {
+  padding: 5px;
+  background-color: green;
+}
+
+.medium {
+  padding: 10px;
+  background-color: cyan;
+}
+
+.large {
+  padding: 20px;
+  background-color: red;
+}
