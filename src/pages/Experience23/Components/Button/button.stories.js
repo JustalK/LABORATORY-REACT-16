@@ -28,5 +28,6 @@ Large.args = {
 
 export const Disabled = Template.bind({})
 Disabled.args = {
-  disabled: true
+  disabled: true,
+  children: 'This is a disabled button'
 }
