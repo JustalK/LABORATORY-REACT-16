@@ -1,5 +1,14 @@
 /**
  * Profile the app for knowing when everything re-render
+ *
+ * For testing this experience, you need to install the storybook
+ *
+ *
+ * "@storybook/addon-actions": "^6.3.8",
+ * "@storybook/react": "^6.3.8",
+ *
+ *
+ *
  * @module Experiences/Experience0
  */
 
