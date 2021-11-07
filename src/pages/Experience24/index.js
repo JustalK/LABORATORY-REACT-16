@@ -6,6 +6,10 @@
 import React, { Profiler } from 'react'
 import Select from 'react-select'
 
+import makeAnimated from 'react-select/animated'
+
+const animatedComponents = makeAnimated()
+
 const onRender = (id, phase, actualDuration) => {
   console.log(id, phase, actualDuration)
 }
@@ -26,6 +30,15 @@ const Experience = () => {
     <Profiler id="Experience" onRender={onRender}>
       <div>Grouped</div>
       <Select options={options} />
+
+      <div>Animated</div>
+      <Select
+        closeMenuOnSelect={false}
+        components={animatedComponents}
+        defaultValue={[options[0], options[1]]}
+        isMulti
+        options={options}
+      />
     </Profiler>
   )
 }
