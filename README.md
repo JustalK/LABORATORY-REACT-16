@@ -43,7 +43,9 @@ I explain with all the details how I build the project and my way of working.
 - **Experience21**: Conditionnal class css with clsx
 - **Experience22**: Small version of atomic design
 - **_Experience23**: Writing a story on a small button (storybook) (No page to show)
-- **Experience24**: Creating a table using material-ui
+- **Experience23**: Creating a table using material-ui
+- **Experience24**: React-select creating a multi select with option get before
+- **Experience25**: React-select creating a multi-select async calling an api
 
 ## Documentation
 #### Code documentation
