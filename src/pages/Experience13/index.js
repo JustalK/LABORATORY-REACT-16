@@ -30,6 +30,16 @@ const Experience = () => {
     console.log('depencies')
   }, [val])
 
+  useEffect(() => {
+    console.log('depencies null')
+  }, null)
+
+  /**
+  useEffect(() => {
+    console.log('depencies false')
+  }, false)
+  * */
+
   return (
     <Profiler id="Experience" onRender={onRender}>
       <button onClick={() => setVal((c) => c + 1)}>
