@@ -3,7 +3,7 @@
  * @module Experiences/Experience0
  */
 
-import React, { Profiler, useState, useEffect } from 'react'
+import React, { Profiler, useState, useEffect, useMemo } from 'react'
 
 const onRender = (id, phase, actualDuration) => {
   console.log(id, phase, actualDuration)
@@ -18,6 +18,10 @@ const Experience = () => {
   const [val, setVal] = useState(0)
   const [val2, setVal2] = useState(0)
 
+  const valBigger = useMemo(() => {
+    return val2 > 10
+  }, [val2])
+
   useEffect(() => {
     console.log('no state')
   })
@@ -29,6 +33,34 @@ const Experience = () => {
   useEffect(() => {
     console.log('depencies')
   }, [val])
+
+  useEffect(() => {
+    console.log('depencies array of false')
+  }, [false])
+
+  useEffect(() => {
+    console.log('depencies array of function')
+  }, [setVal])
+
+  useEffect(() => {
+    console.log('depencies array of new function')
+  }, [setInterval(() => {}, 1000)])
+
+  useEffect(() => {
+    console.log('depencies array of useEffect')
+  }, [
+    useEffect(() => {
+      console.log('useEffect with val dependencies')
+    }, [val])
+  ])
+
+  useEffect(() => {
+    console.log('depencies array of a memo')
+  }, [valBigger])
+
+  useEffect(() => {
+    console.log('depencies array of a boolean')
+  }, [val2 > 10])
 
   useEffect(() => {
     console.log('depencies null')
