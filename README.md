@@ -46,7 +46,7 @@ I explain with all the details how I build the project and my way of working.
 - **Experience23**: Creating a table using material-ui
 - **Experience24**: React-select creating a multi select with option get before
 - **Experience25**: React-select creating a multi-select async calling an api
-- **Experience26**: Use ForwardRef without giving a ref
+- **Experience26**: Use ForwardRef without giving a ref (possible)
 
 ## Documentation
 #### Code documentation
